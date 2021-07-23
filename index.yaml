@@ -3,7 +3,7 @@ entries:
   kubebackup:
   - apiVersion: v1
     appVersion: "55"
-    created: "2021-06-24T05:38:17.501850844Z"
+    created: "2021-07-23T06:41:52.173952878Z"
     description: KubeBackup is a tool for backing up the configuration files in a
       Kubernetes cluster and uploading them to a S3 bucket.
     digest: 6b3ee51e5e1cacf8af9e3f5d4931ca3ec0b9c01cbe114bc38a02ed33db55326d
@@ -21,4 +21,15 @@ entries:
     urls:
     - https://charts-dev.support.tools/kubebackup-v1.0.0-rc1.tgz
     version: v1.0.0-rc1
-generated: "2021-06-24T05:38:17.499885878Z"
+  node-check:
+  - apiVersion: v2
+    appVersion: "8"
+    created: "2021-07-23T06:41:52.174683742Z"
+    description: A Helm chart for Kubernetes
+    digest: ff22678133d8e5375d495ade5b18ff637bb56c3f24b0cca2d02191cb848aaaa9
+    name: node-check
+    type: application
+    urls:
+    - https://charts-dev.support.tools/node-check-v1.0.0-rc1.tgz
+    version: v1.0.0-rc1
+generated: "2021-07-23T06:41:52.1697327Z"
