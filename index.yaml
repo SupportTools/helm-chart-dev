@@ -2,8 +2,28 @@ apiVersion: v1
 entries:
   kubebackup:
   - apiVersion: v1
+    appVersion: "70"
+    created: "2022-02-17T22:23:44.698615278Z"
+    description: KubeBackup is a tool for backing up the configuration files in a
+      Kubernetes cluster and uploading them to a S3 bucket.
+    digest: 321f84d347ea8320c00883688b05ccff259c68be36a25faac73a9100ac1be95d
+    home: https://github.com/mattmattox/kubebackup
+    icon: https://github.com/mattmattox/kubebackup/raw/master/assets/kubebackup-logo.png
+    keywords:
+    - kubernetes
+    - backup
+    maintainers:
+    - email: mmattox@support.tools
+      name: mattmattox
+    name: kubebackup
+    sources:
+    - https://github.com/mattmattox/kubebackup
+    urls:
+    - https://charts-dev.support.tools/kubebackup-v1.1.0-rc1.tgz
+    version: v1.1.0-rc1
+  - apiVersion: v1
     appVersion: "55"
-    created: "2021-07-23T07:18:33.593705968Z"
+    created: "2022-02-17T22:23:44.697883061Z"
     description: KubeBackup is a tool for backing up the configuration files in a
       Kubernetes cluster and uploading them to a S3 bucket.
     digest: 6b3ee51e5e1cacf8af9e3f5d4931ca3ec0b9c01cbe114bc38a02ed33db55326d
@@ -24,7 +44,7 @@ entries:
   node-check:
   - apiVersion: v2
     appVersion: "12"
-    created: "2021-07-23T07:18:33.59563009Z"
+    created: "2022-02-17T22:23:44.699939933Z"
     description: A Helm chart for Kubernetes
     digest: 62ef340f4a466c3e5586997d9b45f68324d8bb46eadfa30022c2f58b35d3ba57
     name: node-check
@@ -34,7 +54,7 @@ entries:
     version: v1.0.0-rc3
   - apiVersion: v2
     appVersion: "10"
-    created: "2021-07-23T07:18:33.594957131Z"
+    created: "2022-02-17T22:23:44.699534572Z"
     description: A Helm chart for Kubernetes
     digest: 4e7bf8cbe53301a508be0f4d134dfe01aa544e58d5d921a34777d6896682d079
     name: node-check
@@ -44,7 +64,7 @@ entries:
     version: v1.0.0-rc2
   - apiVersion: v2
     appVersion: "8"
-    created: "2021-07-23T07:18:33.594360106Z"
+    created: "2022-02-17T22:23:44.699084446Z"
     description: A Helm chart for Kubernetes
     digest: ff22678133d8e5375d495ade5b18ff637bb56c3f24b0cca2d02191cb848aaaa9
     name: node-check
@@ -52,4 +72,4 @@ entries:
     urls:
     - https://charts-dev.support.tools/node-check-v1.0.0-rc1.tgz
     version: v1.0.0-rc1
-generated: "2021-07-23T07:18:33.592283527Z"
+generated: "2022-02-17T22:23:44.696794352Z"
