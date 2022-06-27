@@ -2,8 +2,29 @@ apiVersion: v1
 entries:
   k3s-janitor:
   - apiVersion: v2
+    appVersion: "33"
+    created: "2022-06-27T04:39:05.173316005Z"
+    description: A Helm chart for Kubernetes
+    digest: e97c93912c5f717dcb3a305cb2cca1d894701c870def73fdaba37079791cd552
+    home: https://github.com/SupportTools/k3s-janitor
+    icon: https://raw.githubusercontent.com/SupportTools/k3s-janitor/main/assets/logo.svg
+    keywords:
+    - kubernetes
+    - k3s
+    - maintenance
+    maintainers:
+    - email: mmattox@support.tools
+      name: mattmattox
+    name: k3s-janitor
+    sources:
+    - https://github.com/SupportTools/k3s-janitor
+    type: application
+    urls:
+    - https://charts-dev.support.tools/k3s-janitor-v1.1-rc1.tgz
+    version: v1.1-rc1
+  - apiVersion: v2
     appVersion: "22"
-    created: "2022-06-22T17:59:33.199035601Z"
+    created: "2022-06-27T04:39:05.172309753Z"
     description: A Helm chart for Kubernetes
     digest: b090dd71d0eccd20196665a04a12cb9b86051473b56c20efae8f5a17aaa6e400
     home: https://github.com/SupportTools/k3s-janitor
@@ -25,7 +46,7 @@ entries:
   kubebackup:
   - apiVersion: v1
     appVersion: "70"
-    created: "2022-06-22T17:59:33.203405553Z"
+    created: "2022-06-27T04:39:05.175555533Z"
     description: KubeBackup is a tool for backing up the configuration files in a
       Kubernetes cluster and uploading them to a S3 bucket.
     digest: 321f84d347ea8320c00883688b05ccff259c68be36a25faac73a9100ac1be95d
@@ -45,7 +66,7 @@ entries:
     version: v1.1.0-rc1
   - apiVersion: v1
     appVersion: "55"
-    created: "2022-06-22T17:59:33.20149219Z"
+    created: "2022-06-27T04:39:05.174469166Z"
     description: KubeBackup is a tool for backing up the configuration files in a
       Kubernetes cluster and uploading them to a S3 bucket.
     digest: 6b3ee51e5e1cacf8af9e3f5d4931ca3ec0b9c01cbe114bc38a02ed33db55326d
@@ -66,7 +87,7 @@ entries:
   node-check:
   - apiVersion: v2
     appVersion: "12"
-    created: "2022-06-22T17:59:33.206685508Z"
+    created: "2022-06-27T04:39:05.177870372Z"
     description: A Helm chart for Kubernetes
     digest: 62ef340f4a466c3e5586997d9b45f68324d8bb46eadfa30022c2f58b35d3ba57
     name: node-check
@@ -76,7 +97,7 @@ entries:
     version: v1.0.0-rc3
   - apiVersion: v2
     appVersion: "10"
-    created: "2022-06-22T17:59:33.206026592Z"
+    created: "2022-06-27T04:39:05.177064044Z"
     description: A Helm chart for Kubernetes
     digest: 4e7bf8cbe53301a508be0f4d134dfe01aa544e58d5d921a34777d6896682d079
     name: node-check
@@ -86,7 +107,7 @@ entries:
     version: v1.0.0-rc2
   - apiVersion: v2
     appVersion: "8"
-    created: "2022-06-22T17:59:33.204720254Z"
+    created: "2022-06-27T04:39:05.176265707Z"
     description: A Helm chart for Kubernetes
     digest: ff22678133d8e5375d495ade5b18ff637bb56c3f24b0cca2d02191cb848aaaa9
     name: node-check
@@ -94,4 +115,4 @@ entries:
     urls:
     - https://charts-dev.support.tools/node-check-v1.0.0-rc1.tgz
     version: v1.0.0-rc1
-generated: "2022-06-22T17:59:33.150148581Z"
+generated: "2022-06-27T04:39:05.170594167Z"
