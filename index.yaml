@@ -5,7 +5,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v17
-    created: "2025-03-12T05:49:16.021539391Z"
+    created: "2025-03-12T14:53:16.535075857Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: d35a2e0318e1237b0451525c0b8ec9bec3015d1a3b09708a17131585934f325b
@@ -26,7 +26,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v16
-    created: "2025-03-12T05:49:16.019869618Z"
+    created: "2025-03-12T14:53:16.5324193Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 0c264c1878fb386f2d9b94123fb80a70027fef76122a329193bc9b16ef175728
@@ -47,7 +47,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v15
-    created: "2025-03-12T05:49:16.018171218Z"
+    created: "2025-03-12T14:53:16.530806528Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 606607780450af3fed74abfebc108cc93ce9dac818c416baa759f54f66164c35
@@ -68,7 +68,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v14
-    created: "2025-03-12T05:49:16.016036348Z"
+    created: "2025-03-12T14:53:16.529060865Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 42d8545b43edccc88c3d6afb088bdf413b7766601762518ee0d6b0c0c6b6d2b3
@@ -89,7 +89,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v13
-    created: "2025-03-12T05:49:16.014178132Z"
+    created: "2025-03-12T14:53:16.527495173Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: ee0831c5fd0fbc49d9d86747b49f3b816442546aded86df8db9f2079db9e9462
@@ -110,7 +110,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v12
-    created: "2025-03-12T05:49:16.012538057Z"
+    created: "2025-03-12T14:53:16.525852487Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 76ef1f4c2da71f017fb473cc0477b8d9f96feb4390b617701c97d5510127cef7
@@ -131,7 +131,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v11
-    created: "2025-03-12T05:49:16.010544383Z"
+    created: "2025-03-12T14:53:16.524318611Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: f34e9653bd313e5559c606967a80d2c936360bb962d4135696bf31ad885316ee
@@ -152,7 +152,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v10
-    created: "2025-03-12T05:49:16.007011244Z"
+    created: "2025-03-12T14:53:16.52283436Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 90968b7bee1c68e4eaca30952864912480013d0ccd7d731527425d08a58b314f
@@ -169,10 +169,31 @@ entries:
     urls:
     - https://charts-dev.support.tools/dr-syncer-0.0.10-dev.tgz
     version: 0.0.10-dev
+  - annotations:
+      artifacthub.io/crds: "true"
+    apiVersion: v2
+    appVersion: v1
+    created: "2025-03-12T14:53:16.521099715Z"
+    description: A Kubernetes controller for managing disaster recovery synchronization
+      between clusters
+    digest: 70e3d4cc2cd2b96906685ff0c268da2848ad48af7502eccc8b404d3b1169ea00
+    icon: https://raw.githubusercontent.com/supporttools/dr-syncer/main/charts/dr-syncer/icon.png
+    keywords:
+    - kubernetes
+    - disaster-recovery
+    - replication
+    maintainers:
+    - name: Support Tools
+      url: https://github.com/supporttools
+    name: dr-syncer
+    type: application
+    urls:
+    - https://charts-dev.support.tools/dr-syncer-0.0.1-dev.tgz
+    version: 0.0.1-dev
   k3s-janitor:
   - apiVersion: v2
     appVersion: "59"
-    created: "2025-03-12T05:49:16.026163691Z"
+    created: "2025-03-12T14:53:16.538192254Z"
     description: A Helm chart for Kubernetes
     digest: ea3e64b8e2ff24db5c9b6004fa6a1ed0f7b4a77bc9dec1757f2594455c04efc1
     home: https://github.com/SupportTools/k3s-janitor
@@ -193,7 +214,7 @@ entries:
     version: v1.3-rc1
   - apiVersion: v2
     appVersion: "56"
-    created: "2025-03-12T05:49:16.025186278Z"
+    created: "2025-03-12T14:53:16.53751657Z"
     description: A Helm chart for Kubernetes
     digest: 8e512fe9945b096d4fc21c910926b25c0a02a663c1075ed1f9032f0b503901d4
     home: https://github.com/SupportTools/k3s-janitor
@@ -214,7 +235,7 @@ entries:
     version: v1.2-rc2
   - apiVersion: v2
     appVersion: "53"
-    created: "2025-03-12T05:49:16.023483789Z"
+    created: "2025-03-12T14:53:16.536923276Z"
     description: A Helm chart for Kubernetes
     digest: 56dd14f7f67d04b143460ab816a8c10dfca03858eb601275d61d69733ee02d1e
     home: https://github.com/SupportTools/k3s-janitor
@@ -235,7 +256,7 @@ entries:
     version: v1.2-rc1
   - apiVersion: v2
     appVersion: "33"
-    created: "2025-03-12T05:49:16.022880451Z"
+    created: "2025-03-12T14:53:16.536291544Z"
     description: A Helm chart for Kubernetes
     digest: e97c93912c5f717dcb3a305cb2cca1d894701c870def73fdaba37079791cd552
     home: https://github.com/SupportTools/k3s-janitor
@@ -256,7 +277,7 @@ entries:
     version: v1.1-rc1
   - apiVersion: v2
     appVersion: "22"
-    created: "2025-03-12T05:49:16.02221477Z"
+    created: "2025-03-12T14:53:16.535728808Z"
     description: A Helm chart for Kubernetes
     digest: b090dd71d0eccd20196665a04a12cb9b86051473b56c20efae8f5a17aaa6e400
     home: https://github.com/SupportTools/k3s-janitor
@@ -278,7 +299,7 @@ entries:
   kubebackup:
   - apiVersion: v1
     appVersion: "83"
-    created: "2025-03-12T05:49:16.029237938Z"
+    created: "2025-03-12T14:53:16.540333811Z"
     description: KubeBackup is a tool for backing up the configuration files in a
       Kubernetes cluster and uploading them to a S3 bucket.
     digest: f4e65fcedc5909853b6edcbb205bbc9bbdba45402288c52721cedc631be879ae
@@ -298,7 +319,7 @@ entries:
     version: v1.2.0-rc1
   - apiVersion: v1
     appVersion: "70"
-    created: "2025-03-12T05:49:16.028248142Z"
+    created: "2025-03-12T14:53:16.539597321Z"
     description: KubeBackup is a tool for backing up the configuration files in a
       Kubernetes cluster and uploading them to a S3 bucket.
     digest: 321f84d347ea8320c00883688b05ccff259c68be36a25faac73a9100ac1be95d
@@ -318,7 +339,7 @@ entries:
     version: v1.1.0-rc1
   - apiVersion: v1
     appVersion: "55"
-    created: "2025-03-12T05:49:16.027216742Z"
+    created: "2025-03-12T14:53:16.538916862Z"
     description: KubeBackup is a tool for backing up the configuration files in a
       Kubernetes cluster and uploading them to a S3 bucket.
     digest: 6b3ee51e5e1cacf8af9e3f5d4931ca3ec0b9c01cbe114bc38a02ed33db55326d
@@ -339,7 +360,7 @@ entries:
   node-check:
   - apiVersion: v2
     appVersion: "12"
-    created: "2025-03-12T05:49:16.030989377Z"
+    created: "2025-03-12T14:53:16.541865871Z"
     description: A Helm chart for Kubernetes
     digest: 62ef340f4a466c3e5586997d9b45f68324d8bb46eadfa30022c2f58b35d3ba57
     name: node-check
@@ -349,7 +370,7 @@ entries:
     version: v1.0.0-rc3
   - apiVersion: v2
     appVersion: "10"
-    created: "2025-03-12T05:49:16.030402206Z"
+    created: "2025-03-12T14:53:16.541472379Z"
     description: A Helm chart for Kubernetes
     digest: 4e7bf8cbe53301a508be0f4d134dfe01aa544e58d5d921a34777d6896682d079
     name: node-check
@@ -359,7 +380,7 @@ entries:
     version: v1.0.0-rc2
   - apiVersion: v2
     appVersion: "8"
-    created: "2025-03-12T05:49:16.029831594Z"
+    created: "2025-03-12T14:53:16.540931176Z"
     description: A Helm chart for Kubernetes
     digest: ff22678133d8e5375d495ade5b18ff637bb56c3f24b0cca2d02191cb848aaaa9
     name: node-check
@@ -370,7 +391,7 @@ entries:
   uptime-kuma:
   - apiVersion: v2
     appVersion: "74"
-    created: "2025-03-12T05:49:16.034375336Z"
+    created: "2025-03-12T14:53:16.5440391Z"
     description: A Helm chart Uptime Kuma
     digest: 56ca70801b694e8ad4546833c8450199343090001731d3f6721b48b839623053
     home: https://github.com/SupportTools/uptime-kuma
@@ -390,7 +411,7 @@ entries:
     version: v1.2-rc1
   - apiVersion: v2
     appVersion: "64"
-    created: "2025-03-12T05:49:16.033099011Z"
+    created: "2025-03-12T14:53:16.543240346Z"
     description: A Helm chart Uptime Kuma
     digest: 2fd24330a2ae7cd9bc21a0cf92c4db87e8d736441ab860f2ff1d1351c8e21eef
     home: https://github.com/SupportTools/uptime-kuma
@@ -410,7 +431,7 @@ entries:
     version: v1.1-rc1
   - apiVersion: v2
     appVersion: "60"
-    created: "2025-03-12T05:49:16.031787776Z"
+    created: "2025-03-12T14:53:16.542449051Z"
     description: A Helm chart Uptime Kuma
     digest: 9f69f7361863f270d91941cf19d08e7b930b2bff9c6af99681beef0a4916d484
     home: https://github.com/SupportTools/uptime-kuma
@@ -429,4 +450,4 @@ entries:
     urls:
     - https://charts-dev.support.tools/uptime-kuma-v1.0-rc1.tgz
     version: v1.0-rc1
-generated: "2025-03-12T05:49:16.004165152Z"
+generated: "2025-03-12T14:53:16.518333061Z"
