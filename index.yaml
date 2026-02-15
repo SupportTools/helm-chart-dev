@@ -4,8 +4,29 @@ entries:
   - annotations:
       artifacthub.io/crds: "true"
     apiVersion: v2
+    appVersion: v135
+    created: "2026-02-15T07:03:16.68081387Z"
+    description: A Kubernetes controller for managing disaster recovery synchronization
+      between clusters
+    digest: e6931fba2d49f52e31fa4403498167dc8c25c80615dfabc208313a364ece5cad
+    icon: https://raw.githubusercontent.com/supporttools/dr-syncer/main/charts/dr-syncer/icon.png
+    keywords:
+    - kubernetes
+    - disaster-recovery
+    - replication
+    maintainers:
+    - name: Support Tools
+      url: https://github.com/supporttools
+    name: dr-syncer
+    type: application
+    urls:
+    - https://charts-dev.support.tools/dr-syncer-0.0.135-dev.tgz
+    version: 0.0.135-dev
+  - annotations:
+      artifacthub.io/crds: "true"
+    apiVersion: v2
     appVersion: v134
-    created: "2026-02-15T06:55:25.358711726Z"
+    created: "2026-02-15T07:03:16.678355803Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 1884e961e5d4f744b6467cad3fe3daa5023d69299c6eb519712dbb771e38714a
@@ -26,7 +47,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v133
-    created: "2026-02-15T06:55:25.354780812Z"
+    created: "2026-02-15T07:03:16.67564277Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 942bf2dd4d21d158c486cc47a4569e7139bcbdab1335e217d6e845cec509785b
@@ -47,7 +68,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v131
-    created: "2026-02-15T06:55:25.352848533Z"
+    created: "2026-02-15T07:03:16.673541618Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 5b46730d8e5643aa19a6e3935fd700fed05ba62c13f075112f4449843f624b3e
@@ -68,7 +89,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v130
-    created: "2026-02-15T06:55:25.35090331Z"
+    created: "2026-02-15T07:03:16.671564592Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 7f115c50cb66be98a2e9abc9ee5f3ebe646248019a00f1a7713b35f64cfa94b7
@@ -89,7 +110,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v129
-    created: "2026-02-15T06:55:25.347416547Z"
+    created: "2026-02-15T07:03:16.667699633Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: f9b7c3a62d857aa925ca7e5211e60a71be8088e2f3ad71306add4ee9346a6c6e
@@ -110,7 +131,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v128
-    created: "2026-02-15T06:55:25.345491036Z"
+    created: "2026-02-15T07:03:16.665608247Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 8f943dc98562b63dceb0282b9dcab320b84769083eb7d96e68b7bff3b8915f02
@@ -131,7 +152,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v127
-    created: "2026-02-15T06:55:25.343130264Z"
+    created: "2026-02-15T07:03:16.662522627Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 86e663a82b986cf154e8024ebabedea112f98e892b7639f0702cd67ad8abefac
@@ -152,7 +173,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v126
-    created: "2026-02-15T06:55:25.340690308Z"
+    created: "2026-02-15T07:03:16.660550783Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 22c5c7ac38a864b213dfc19a2e8ee88ab5857ed874ae756f7c4d8a1b2f9ea5b3
@@ -173,7 +194,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v125
-    created: "2026-02-15T06:55:25.33863646Z"
+    created: "2026-02-15T07:03:16.658605153Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: fdfdf525265a4d54fe24b782d99c84def80791c4964c1aff46f1293af8025b35
@@ -194,7 +215,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v124
-    created: "2026-02-15T06:55:25.336729866Z"
+    created: "2026-02-15T07:03:16.65670067Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 980dae09a5a9ac4c2063aeb569b36d4409624393c3bb869e574df8ec22052df0
@@ -215,7 +236,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v123
-    created: "2026-02-15T06:55:25.334796345Z"
+    created: "2026-02-15T07:03:16.65465898Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: e28f8462612d0b661448775062c541e7a3caedfeda71419750bafac15f8b2849
@@ -236,7 +257,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v122
-    created: "2026-02-15T06:55:25.332894487Z"
+    created: "2026-02-15T07:03:16.652545416Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 80d237b9394dfbac119357157684ca8a838a3cdeead1e88ec271b01e8d734ffe
@@ -257,7 +278,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v121
-    created: "2026-02-15T06:55:25.330648386Z"
+    created: "2026-02-15T07:03:16.649159358Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 2eca893d87c55f80c534bd4b55184e209ad104153a4493d70296456b6da29750
@@ -278,7 +299,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v120
-    created: "2026-02-15T06:55:25.327584671Z"
+    created: "2026-02-15T07:03:16.647002582Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: abfd80b5206296a02a5e48f33050c8f96d8e49917c7d8abac4dee013306e9964
@@ -299,7 +320,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v119
-    created: "2026-02-15T06:55:25.323899791Z"
+    created: "2026-02-15T07:03:16.642531995Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 4d23ca7437f9a7ca480516575ef8ca395fef14de4f4addf38b35a8db92501765
@@ -320,7 +341,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v117
-    created: "2026-02-15T06:55:25.321982596Z"
+    created: "2026-02-15T07:03:16.640504992Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 7ff9e898002fe8e8a3f4e842ddc7a65ab929ec6028c66015c506d551188faa11
@@ -341,7 +362,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v116
-    created: "2026-02-15T06:55:25.31967955Z"
+    created: "2026-02-15T07:03:16.638502095Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 8057f16249ac070a573c035f5ab85dc0ec7b6177ffb3b17bf5a9d785ef3c4b26
@@ -362,7 +383,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v115
-    created: "2026-02-15T06:55:25.316711922Z"
+    created: "2026-02-15T07:03:16.635887344Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: c3815f3c28fd74f2017679f97939d3d03791b29fabb4400a270d8f781e1901fd
@@ -383,7 +404,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v114
-    created: "2026-02-15T06:55:25.313670483Z"
+    created: "2026-02-15T07:03:16.633407216Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 657e3f4bcde5551491d764963dea59e33e943531e9efba51f895b659b80deee3
@@ -404,7 +425,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v113
-    created: "2026-02-15T06:55:25.311405396Z"
+    created: "2026-02-15T07:03:16.631333291Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 6d394ed98d6387d9c2268815ce0f7f9453145864a0f2b800e5650ea06e179d50
@@ -425,7 +446,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v112
-    created: "2026-02-15T06:55:25.308990913Z"
+    created: "2026-02-15T07:03:16.629254145Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 4ff62bc1596dce0bfb41a93c60c26a5dd93482bdcaa4a12a58d9d14e1ce9b98f
@@ -446,7 +467,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v111
-    created: "2026-02-15T06:55:25.306704979Z"
+    created: "2026-02-15T07:03:16.627222304Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: ab69e42916d293985868943bcecb9eb249c4bf593f1e3a6dc90c1002d2b92d59
@@ -467,7 +488,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v110
-    created: "2026-02-15T06:55:25.304309723Z"
+    created: "2026-02-15T07:03:16.625128493Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: d9072c69c732cc6825de9b4f2fdb6bc2c7aea9307ebbf43b583429cbd87c0831
@@ -488,7 +509,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v109
-    created: "2026-02-15T06:55:25.298480589Z"
+    created: "2026-02-15T07:03:16.620010561Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: e12ed21940a719373e3c645976db07541de7b7194d09b2c0c19faa2e533d6129
@@ -509,7 +530,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v108
-    created: "2026-02-15T06:55:25.296461947Z"
+    created: "2026-02-15T07:03:16.617870055Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 6778ffe861b486560deff5560bdb7d25366539d39c1e8fb0bdd86d35de8cf985
@@ -530,7 +551,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v107
-    created: "2026-02-15T06:55:25.294287023Z"
+    created: "2026-02-15T07:03:16.615831351Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 7335caa21f513a527c182d9c35f75d78ea9c06fbb18547ebbfd27d943ffd937e
@@ -551,7 +572,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v106
-    created: "2026-02-15T06:55:25.292221842Z"
+    created: "2026-02-15T07:03:16.613737652Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 0b44895a808d88cd8212fd01c45be93cf367d1ef597e44d8034ed1320f96614b
@@ -572,7 +593,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v105
-    created: "2026-02-15T06:55:25.290034077Z"
+    created: "2026-02-15T07:03:16.611518139Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 99a5d5b9474d7cb4cacb42e5ad42486ac2d4ea6b7fa177de0dcd2486a08480dc
@@ -593,7 +614,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v76
-    created: "2026-02-15T06:55:25.3929082Z"
+    created: "2026-02-15T07:03:16.708397725Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 5221c32522c12925b05b9278dba831a8ad25b4090bd03b82a104985b108ce801
@@ -614,7 +635,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v75
-    created: "2026-02-15T06:55:25.391092764Z"
+    created: "2026-02-15T07:03:16.706541683Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: a99a629064f3e498d1d54eae8cbeb2523b6a4d7972f95bb568bc7c0ebb99e3df
@@ -635,7 +656,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v27
-    created: "2026-02-15T06:55:25.382011603Z"
+    created: "2026-02-15T07:03:16.700354715Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 591cddf7ca1169dd7fcb4ca21fc4adac74f3d7e501acbf5acee5785d96ed8bbc
@@ -656,7 +677,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v26
-    created: "2026-02-15T06:55:25.379471763Z"
+    created: "2026-02-15T07:03:16.698703027Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 00a8298daeb46c9b587b734742c9d9feaa559e98245ada69348554793297c055
@@ -677,7 +698,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v24
-    created: "2026-02-15T06:55:25.376757462Z"
+    created: "2026-02-15T07:03:16.697098983Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 87b8d3d72fbbea001af7afc42a6b631b4be8304c56b125cae64d288634a37a49
@@ -698,7 +719,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v22
-    created: "2026-02-15T06:55:25.374106347Z"
+    created: "2026-02-15T07:03:16.695496012Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 2f1a158f3d3450189f933a15167c468ca9bdfa0eb2ad1031c33a6f06ff59773a
@@ -719,7 +740,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v21
-    created: "2026-02-15T06:55:25.371283612Z"
+    created: "2026-02-15T07:03:16.693904556Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: b9db00f3451bdac1fa96d9a1a2e7d4c81115b2ecc3cdf9c1dc67891fce33d489
@@ -740,7 +761,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v19
-    created: "2026-02-15T06:55:25.368347201Z"
+    created: "2026-02-15T07:03:16.691801805Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: d1bc05e5310a35e1d92b61c523ff4678dc60ff0cb5cab08e370b5338b65e0be1
@@ -761,7 +782,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v18
-    created: "2026-02-15T06:55:25.366581872Z"
+    created: "2026-02-15T07:03:16.68921466Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: aac02904c9333a9648c49490fbed10b3cf5b3559e14e4a678ec81a27025a43a5
@@ -782,7 +803,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v17
-    created: "2026-02-15T06:55:25.36503867Z"
+    created: "2026-02-15T07:03:16.687610039Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 2aa715a7a30817152ceee9483bd4211decc50ceff9e8e85d111cf380d8475ba0
@@ -803,7 +824,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v16
-    created: "2026-02-15T06:55:25.363472566Z"
+    created: "2026-02-15T07:03:16.686044544Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 0c264c1878fb386f2d9b94123fb80a70027fef76122a329193bc9b16ef175728
@@ -824,7 +845,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v15
-    created: "2026-02-15T06:55:25.361923811Z"
+    created: "2026-02-15T07:03:16.684257404Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: bea3b9cef2ba448c6f0be700d4437c35ff72518a894bab44d8e9fbdeabaf4db6
@@ -845,7 +866,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v14
-    created: "2026-02-15T06:55:25.360362821Z"
+    created: "2026-02-15T07:03:16.682470746Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 91ec55d43a104a7ef79d0b0b60daedead2ca3b76464b16f724067c44de9c75db
@@ -866,7 +887,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v13
-    created: "2026-02-15T06:55:25.348966827Z"
+    created: "2026-02-15T07:03:16.669430964Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: ee0831c5fd0fbc49d9d86747b49f3b816442546aded86df8db9f2079db9e9462
@@ -887,7 +908,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v12
-    created: "2026-02-15T06:55:25.325497523Z"
+    created: "2026-02-15T07:03:16.644353072Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 4f6fd58f626e10d04aaf5c0bf10ec99875cc9a8c320fbf85c14118c204a1edee
@@ -908,7 +929,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v11
-    created: "2026-02-15T06:55:25.301491222Z"
+    created: "2026-02-15T07:03:16.621680521Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: c86df1dd4305f9f9b8550458d229efe4268c4224d7515424239719d583fb2eea
@@ -929,7 +950,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v10
-    created: "2026-02-15T06:55:25.287516865Z"
+    created: "2026-02-15T07:03:16.607850395Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 90968b7bee1c68e4eaca30952864912480013d0ccd7d731527425d08a58b314f
@@ -950,7 +971,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v9
-    created: "2026-02-15T06:55:25.396125Z"
+    created: "2026-02-15T07:03:16.711922586Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: b75cf8856c9df0cd8f615d65ad99d39d299382d6f80b3f65d2aa515693f7e4d8
@@ -971,7 +992,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v8
-    created: "2026-02-15T06:55:25.394557782Z"
+    created: "2026-02-15T07:03:16.710252637Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: eb9ba403fc60d62a4201dca9aa61fd489445594bc1c5f4f53c065414e88500e5
@@ -992,7 +1013,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v7
-    created: "2026-02-15T06:55:25.387188295Z"
+    created: "2026-02-15T07:03:16.704325908Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 649146058efe8b790a2c62360de167f7f868814b1c7885b83d7d1b308fc525c6
@@ -1013,7 +1034,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v6
-    created: "2026-02-15T06:55:25.384601414Z"
+    created: "2026-02-15T07:03:16.702016915Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: ce27133db53d8175a021f0d80e664f7ceda7cda8c29dfb335111b6ebbb061fd8
@@ -1034,7 +1055,7 @@ entries:
       artifacthub.io/crds: "true"
     apiVersion: v2
     appVersion: v1
-    created: "2026-02-15T06:55:25.284697027Z"
+    created: "2026-02-15T07:03:16.605851476Z"
     description: A Kubernetes controller for managing disaster recovery synchronization
       between clusters
     digest: 70e3d4cc2cd2b96906685ff0c268da2848ad48af7502eccc8b404d3b1169ea00
@@ -1054,7 +1075,7 @@ entries:
   k3s-janitor:
   - apiVersion: v2
     appVersion: "59"
-    created: "2026-02-15T06:55:25.3992258Z"
+    created: "2026-02-15T07:03:16.715171346Z"
     description: A Helm chart for Kubernetes
     digest: ea3e64b8e2ff24db5c9b6004fa6a1ed0f7b4a77bc9dec1757f2594455c04efc1
     home: https://github.com/SupportTools/k3s-janitor
@@ -1075,7 +1096,7 @@ entries:
     version: v1.3-rc1
   - apiVersion: v2
     appVersion: "56"
-    created: "2026-02-15T06:55:25.398449266Z"
+    created: "2026-02-15T07:03:16.714527577Z"
     description: A Helm chart for Kubernetes
     digest: 8e512fe9945b096d4fc21c910926b25c0a02a663c1075ed1f9032f0b503901d4
     home: https://github.com/SupportTools/k3s-janitor
@@ -1096,7 +1117,7 @@ entries:
     version: v1.2-rc2
   - apiVersion: v2
     appVersion: "53"
-    created: "2026-02-15T06:55:25.397880837Z"
+    created: "2026-02-15T07:03:16.713954231Z"
     description: A Helm chart for Kubernetes
     digest: 56dd14f7f67d04b143460ab816a8c10dfca03858eb601275d61d69733ee02d1e
     home: https://github.com/SupportTools/k3s-janitor
@@ -1117,7 +1138,7 @@ entries:
     version: v1.2-rc1
   - apiVersion: v2
     appVersion: "33"
-    created: "2026-02-15T06:55:25.397321496Z"
+    created: "2026-02-15T07:03:16.713275991Z"
     description: A Helm chart for Kubernetes
     digest: e97c93912c5f717dcb3a305cb2cca1d894701c870def73fdaba37079791cd552
     home: https://github.com/SupportTools/k3s-janitor
@@ -1138,7 +1159,7 @@ entries:
     version: v1.1-rc1
   - apiVersion: v2
     appVersion: "22"
-    created: "2026-02-15T06:55:25.39672614Z"
+    created: "2026-02-15T07:03:16.712616199Z"
     description: A Helm chart for Kubernetes
     digest: b090dd71d0eccd20196665a04a12cb9b86051473b56c20efae8f5a17aaa6e400
     home: https://github.com/SupportTools/k3s-janitor
@@ -1160,7 +1181,7 @@ entries:
   kubebackup:
   - apiVersion: v1
     appVersion: "83"
-    created: "2026-02-15T06:55:25.401319142Z"
+    created: "2026-02-15T07:03:16.71768069Z"
     description: KubeBackup is a tool for backing up the configuration files in a
       Kubernetes cluster and uploading them to a S3 bucket.
     digest: f4e65fcedc5909853b6edcbb205bbc9bbdba45402288c52721cedc631be879ae
@@ -1180,7 +1201,7 @@ entries:
     version: v1.2.0-rc1
   - apiVersion: v1
     appVersion: "70"
-    created: "2026-02-15T06:55:25.40055713Z"
+    created: "2026-02-15T07:03:16.716622087Z"
     description: KubeBackup is a tool for backing up the configuration files in a
       Kubernetes cluster and uploading them to a S3 bucket.
     digest: 321f84d347ea8320c00883688b05ccff259c68be36a25faac73a9100ac1be95d
@@ -1200,7 +1221,7 @@ entries:
     version: v1.1.0-rc1
   - apiVersion: v1
     appVersion: "55"
-    created: "2026-02-15T06:55:25.399902462Z"
+    created: "2026-02-15T07:03:16.715903004Z"
     description: KubeBackup is a tool for backing up the configuration files in a
       Kubernetes cluster and uploading them to a S3 bucket.
     digest: 6b3ee51e5e1cacf8af9e3f5d4931ca3ec0b9c01cbe114bc38a02ed33db55326d
@@ -1221,7 +1242,7 @@ entries:
   node-check:
   - apiVersion: v2
     appVersion: "12"
-    created: "2026-02-15T06:55:25.40300094Z"
+    created: "2026-02-15T07:03:16.719979319Z"
     description: A Helm chart for Kubernetes
     digest: 62ef340f4a466c3e5586997d9b45f68324d8bb46eadfa30022c2f58b35d3ba57
     name: node-check
@@ -1231,7 +1252,7 @@ entries:
     version: v1.0.0-rc3
   - apiVersion: v2
     appVersion: "10"
-    created: "2026-02-15T06:55:25.402171678Z"
+    created: "2026-02-15T07:03:16.718958679Z"
     description: A Helm chart for Kubernetes
     digest: 4e7bf8cbe53301a508be0f4d134dfe01aa544e58d5d921a34777d6896682d079
     name: node-check
@@ -1241,7 +1262,7 @@ entries:
     version: v1.0.0-rc2
   - apiVersion: v2
     appVersion: "8"
-    created: "2026-02-15T06:55:25.401734882Z"
+    created: "2026-02-15T07:03:16.718369126Z"
     description: A Helm chart for Kubernetes
     digest: ff22678133d8e5375d495ade5b18ff637bb56c3f24b0cca2d02191cb848aaaa9
     name: node-check
@@ -1252,7 +1273,7 @@ entries:
   uptime-kuma:
   - apiVersion: v2
     appVersion: "74"
-    created: "2026-02-15T06:55:25.406479355Z"
+    created: "2026-02-15T07:03:16.722530021Z"
     description: A Helm chart Uptime Kuma
     digest: 56ca70801b694e8ad4546833c8450199343090001731d3f6721b48b839623053
     home: https://github.com/SupportTools/uptime-kuma
@@ -1272,7 +1293,7 @@ entries:
     version: v1.2-rc1
   - apiVersion: v2
     appVersion: "64"
-    created: "2026-02-15T06:55:25.404961643Z"
+    created: "2026-02-15T07:03:16.721702626Z"
     description: A Helm chart Uptime Kuma
     digest: 2fd24330a2ae7cd9bc21a0cf92c4db87e8d736441ab860f2ff1d1351c8e21eef
     home: https://github.com/SupportTools/uptime-kuma
@@ -1292,7 +1313,7 @@ entries:
     version: v1.1-rc1
   - apiVersion: v2
     appVersion: "60"
-    created: "2026-02-15T06:55:25.403735437Z"
+    created: "2026-02-15T07:03:16.720737369Z"
     description: A Helm chart Uptime Kuma
     digest: 9f69f7361863f270d91941cf19d08e7b930b2bff9c6af99681beef0a4916d484
     home: https://github.com/SupportTools/uptime-kuma
@@ -1311,4 +1332,4 @@ entries:
     urls:
     - https://charts-dev.support.tools/uptime-kuma-v1.0-rc1.tgz
     version: v1.0-rc1
-generated: "2026-02-15T06:55:25.281387329Z"
+generated: "2026-02-15T07:03:16.603639245Z"
